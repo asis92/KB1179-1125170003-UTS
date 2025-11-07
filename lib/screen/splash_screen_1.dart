@@ -28,6 +28,15 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
                 ),
               ),
             ),
+            SizedBox(height: 50),
+            Text(
+              "Selamat Datang di Halaman Pertama",
+              style: TextStyle(
+                fontSize: 30.0,
+                color: Colors.blueGrey,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),
