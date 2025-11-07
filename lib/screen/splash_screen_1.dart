@@ -17,11 +17,15 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
           children: [
             SizedBox(height: 30),
             Container(
-              width: 250,
-              height: 250,
+              width: 200,
+              height: 200,
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 color: Colors.blueGrey,
+                image: DecorationImage(
+                  image: AssetImage("images/kuwe.jpeg"),
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
           ],
