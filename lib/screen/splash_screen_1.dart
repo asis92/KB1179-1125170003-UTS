@@ -65,7 +65,7 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.blueGrey,
+                    color: Colors.blueGrey[100],
                   ),
                 ),
                 SizedBox(width: 10),
@@ -74,10 +74,20 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Colors.blueGrey,
+                    color: Colors.blueGrey[100],
                   ),
                 ),
               ],
+            ),
+            SizedBox(height: 30),
+            Container(
+              child: ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.blueGrey,
+                ),
+                child: Text("Lanjutkan", style: TextStyle(fontSize: 14)),
+              ),
             ),
           ],
         ),
