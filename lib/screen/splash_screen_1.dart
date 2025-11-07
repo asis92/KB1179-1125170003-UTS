@@ -37,6 +37,15 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            SizedBox(height: 30),
+            Text(
+              "Halaman ini menampilkan gambar \n Ikan yang Ke-1",
+              style: TextStyle(
+                fontSize: 25.0,
+                color: Colors.blueGrey,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
           ],
         ),
       ),
