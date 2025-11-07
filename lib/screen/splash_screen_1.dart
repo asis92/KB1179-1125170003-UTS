@@ -40,6 +40,7 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
             SizedBox(height: 30),
             Text(
               "Halaman ini menampilkan gambar \n Ikan yang Ke-1",
+              textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25.0,
                 color: Colors.blueGrey,
@@ -50,9 +51,32 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text("Bulatan Pertama"),
-                Text("Bulatan Kedua"),
-                Text("Bulatan Ketiga"),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.blueGrey,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.blueGrey,
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.blueGrey,
+                  ),
+                ),
               ],
             ),
           ],
