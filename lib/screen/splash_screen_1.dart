@@ -81,14 +81,27 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
             ),
             SizedBox(height: 30),
             Container(
-              child: ElevatedButton(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.blueGrey,
+              margin: EdgeInsets.only(left: 40, right: 40),
+              child: SizedBox(
+                height: 40,
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {},
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blueGrey,
+                  ),
+                  child: Text(
+                    "Lanjutkan",
+                    style: TextStyle(
+                      fontSize: 14,
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
                 ),
-                child: Text("Lanjutkan", style: TextStyle(fontSize: 14)),
               ),
             ),
+            SizedBox(height: 70),
           ],
         ),
       ),
