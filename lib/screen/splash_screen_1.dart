@@ -15,6 +15,7 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            Spacer(),
             SizedBox(height: 30),
             Container(
               width: 200,
