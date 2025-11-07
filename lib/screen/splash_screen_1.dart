@@ -46,6 +46,15 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            SizedBox(height: 30),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text("Bulatan Pertama"),
+                Text("Bulatan Kedua"),
+                Text("Bulatan Ketiga"),
+              ],
+            ),
           ],
         ),
       ),
