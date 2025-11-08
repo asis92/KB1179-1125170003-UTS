@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:uts_asisdwisaputra_1125170003/screen/splash_screen_2.dart';
+import 'package:uts_asisdwisaputra_1125170003/screen/splash_screen_1.dart';
 
-class MySplashscreen1 extends StatefulWidget {
-  const MySplashscreen1({super.key});
+class MySplashscreen3 extends StatefulWidget {
+  const MySplashscreen3({super.key});
 
   @override
-  State<MySplashscreen1> createState() => _MySplasscreen1State();
+  State<MySplashscreen3> createState() => _MySplasscreen3State();
 }
 
-class _MySplasscreen1State extends State<MySplashscreen1> {
+class _MySplasscreen3State extends State<MySplashscreen3> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -25,14 +25,14 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
                 shape: BoxShape.circle,
                 color: Colors.blueGrey,
                 image: DecorationImage(
-                  image: AssetImage("images/kuwe.jpeg"),
+                  image: AssetImage("images/talang.jpg"),
                   fit: BoxFit.cover,
                 ),
               ),
             ),
             SizedBox(height: 50),
             Text(
-              "Selamat Datang di Halaman Pertama",
+              "Selamat Datang di Halaman Ketiga",
               style: TextStyle(
                 fontSize: 30.0,
                 color: Colors.blueGrey,
@@ -41,7 +41,7 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
             ),
             SizedBox(height: 30),
             Text(
-              "Halaman ini menampilkan gambar \n Ikan yang Ke-1",
+              "Halaman ini menampilkan gambar \n Ikan yang Ke-3",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25.0,
@@ -58,25 +58,25 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
+                    color: Colors.blueGrey[100],
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.blueGrey[100],
+                  ),
+                ),
+                SizedBox(width: 10),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
                     color: Colors.blueGrey,
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.blueGrey[100],
-                  ),
-                ),
-                SizedBox(width: 10),
-                Container(
-                  width: 10,
-                  height: 10,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.blueGrey[100],
                   ),
                 ),
               ],
@@ -92,7 +92,7 @@ class _MySplasscreen1State extends State<MySplashscreen1> {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
-                        builder: (context) => MySplashscreen2(),
+                        builder: (context) => MySplashscreen1(),
                       ),
                     );
                   },
