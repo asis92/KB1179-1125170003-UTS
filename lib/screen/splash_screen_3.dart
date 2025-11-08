@@ -91,7 +91,7 @@ class _MySplasscreen3State extends State<MySplashscreen3> {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => login()),
+                      MaterialPageRoute(builder: (context) => Login()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
