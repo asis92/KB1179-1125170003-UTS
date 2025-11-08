@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uts_asisdwisaputra_1125170003/screen/splash_screen_1.dart';
+import 'package:uts_asisdwisaputra_1125170003/screen/login.dart';
 
 class MySplashscreen3 extends StatefulWidget {
   const MySplashscreen3({super.key});
@@ -91,9 +91,7 @@ class _MySplasscreen3State extends State<MySplashscreen3> {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
-                        builder: (context) => MySplashscreen1(),
-                      ),
+                      MaterialPageRoute(builder: (context) => login()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
